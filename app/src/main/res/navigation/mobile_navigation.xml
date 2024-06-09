@@ -6,6 +6,11 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
+        android:id="@+id/nav_ranking"
+        android:name="com.example.socialproyecto.ui.ranking.RankingFragment"
+        android:label="@string/menu_ranking"
+        tools:layout="@layout/fragment_ranking" />
+    <fragment
         android:id="@+id/nav_home"
         android:name="com.example.socialproyecto.ui.home.HomeFragment"
         android:label="@string/menu_home"
@@ -22,4 +27,9 @@
         android:name="com.example.socialproyecto.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_contacts"
+        android:name="com.example.socialproyecto.ui.contacts.ContactsFragment"
+        android:label="@string/menu_contacts"
+        tools:layout="@layout/fragment_contacts" />
 </navigation>
